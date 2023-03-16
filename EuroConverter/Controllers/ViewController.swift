@@ -1,7 +1,9 @@
 import UIKit
-
+import AVFoundation
 class ViewController: UIViewController, UITextFieldDelegate {
 
+    //player: AVAudioPlayer!
+    var convertorBrain = ConvertorBrain()
     @IBOutlet weak var eurTextField: UITextField!
     @IBOutlet weak var ronTextField: UITextField!
     @IBOutlet weak var ratioTextField: UITextField!
@@ -9,12 +11,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var eurResultLabel: UILabel!
     
     @IBAction func conversionEurRonButtonPressed(_ sender: UIButton) {
-        let floatRonResult = getEurValue() * getRatioValue()
-        ronResultLabel.text = String(format: "%.2f", floatRonResult)
+        
+        let userEurInput = Float(eurTextField.text!) ?? 0
+        print(userEurInput)
+        let eurValue = convertorBrain.getEurValue(userEurInput: userEurInput)
+        let userRatioInput = Float(ratioTextField.text!) ?? 0
+        let ratioValue =  convertorBrain.getRatioValue(userRatioInput: userRatioInput)
+        let ronResult = Float(eurValue) * Float(ratioValue)
+        ronResultLabel.text = String(format: "%.2f", ronResult)
         
     }
     
     @IBAction func conversionRonEurButtonPressed(_ sender: UIButton) {
+        
         let floatEurResult = getRonValue() / getRatioValue()
         eurResultLabel.text = String(format: "%.2f", floatEurResult)
         }
@@ -39,6 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
         eurTextField.endEditing(true)
         ronTextField.endEditing(true)
         ratioTextField.endEditing(true)
@@ -66,7 +76,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return ratioValue
     }
 
-   
+   // func playSound(){
+     //   let url = Bundle.main.url(forResource: "sound", withExtension: "mp3")
+       // player = try! AVAudioPlayer(contentsOf: url!)
+        //player.play()
+    //}
 
 }
 
