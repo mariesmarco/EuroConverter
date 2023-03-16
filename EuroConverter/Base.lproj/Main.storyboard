@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EuroConverter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rTK-jY-MI2">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3j-PT-LnC" userLabel="CureciesView">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="474.66666666666669"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-rk-7Fi">
+                                                <rect key="frame" x="50" y="40" width="60" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Eur:">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQN-YS-1ac">
+                                                <rect key="frame" x="50" y="120" width="60" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Ron:">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pl0-8t-3PD">
+                                                <rect key="frame" x="50" y="200" width="80" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Ratio:">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uij-WA-B2I">
+                                                <rect key="frame" x="50" y="280" width="146" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Result Ron:">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eur Amount" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xrQ-JE-Sqf">
+                                                <rect key="frame" x="165" y="43" width="194" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ron Amount" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w9M-7t-Sf2">
+                                                <rect key="frame" x="165" y="123" width="194" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Conversion Ratio" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8BK-mx-WhT">
+                                                <rect key="frame" x="165" y="203" width="194" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-QZ-dbF" userLabel="Ron Result ">
+                                                <rect key="frame" x="204" y="280" width="155" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzQ-Wl-1Hy" userLabel="Eur Result">
+                                                <rect key="frame" x="204" y="328" width="155" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egO-SL-YBJ">
+                                                <rect key="frame" x="50" y="328" width="146" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Result Eur:">
+                                                        <attributes>
+                                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.36086022490000003" green="0.62657138420000003" blue="0.67755938449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B8j-cF-Z2j" userLabel="ButtonAndResulView">
+                                        <rect key="frame" x="0.0" y="474.66666666666663" width="393" height="284.33333333333337"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91m-UK-u0Q">
+                                                <rect key="frame" x="104" y="201" width="185" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Conversion Ron - Eur">
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.87450980389999999" green="1" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="conversionRonEurButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLr-db-6fH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JL6-WT-6ad">
+                                                <rect key="frame" x="164.33333333333334" y="57" width="64.333333333333343" height="35.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Clear">
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.87450980392156863" green="1" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ww-EY-EQq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jt-1v-S3c">
+                                                <rect key="frame" x="94" y="124.99999999999999" width="205" height="34.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Conversion Eur - Ron">
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.87450980389999999" green="1" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="conversionEurRonButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NjM-xz-7Dv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.36086022490000003" green="0.62657138420000003" blue="0.67755938449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="91m-UK-u0Q" firstAttribute="leading" secondItem="B8j-cF-Z2j" secondAttribute="leading" constant="104" id="0f2-jc-WlV"/>
+                                            <constraint firstItem="8Jt-1v-S3c" firstAttribute="leading" secondItem="B8j-cF-Z2j" secondAttribute="leading" constant="94" id="1J1-TJ-cqY"/>
+                                            <constraint firstItem="8Jt-1v-S3c" firstAttribute="centerX" secondItem="B8j-cF-Z2j" secondAttribute="centerX" id="5sU-Ma-AdE"/>
+                                            <constraint firstItem="8Jt-1v-S3c" firstAttribute="top" secondItem="JL6-WT-6ad" secondAttribute="bottom" constant="32.670000000000002" id="7lZ-Dh-2ik"/>
+                                            <constraint firstAttribute="bottom" secondItem="8Jt-1v-S3c" secondAttribute="bottom" constant="125" id="8UD-3v-Fmt"/>
+                                            <constraint firstAttribute="bottom" secondItem="91m-UK-u0Q" secondAttribute="bottom" constant="49" id="CYM-2R-1l6"/>
+                                            <constraint firstItem="JL6-WT-6ad" firstAttribute="centerX" secondItem="B8j-cF-Z2j" secondAttribute="centerX" id="G07-aV-JHk"/>
+                                            <constraint firstItem="91m-UK-u0Q" firstAttribute="top" secondItem="8Jt-1v-S3c" secondAttribute="bottom" constant="41.670000000000002" id="b5H-9F-HYM"/>
+                                            <constraint firstItem="JL6-WT-6ad" firstAttribute="top" secondItem="B8j-cF-Z2j" secondAttribute="top" constant="57" id="dgG-4U-CAM"/>
+                                            <constraint firstAttribute="trailing" secondItem="8Jt-1v-S3c" secondAttribute="trailing" constant="94" id="f5M-dx-ZOs"/>
+                                            <constraint firstAttribute="trailing" secondItem="91m-UK-u0Q" secondAttribute="trailing" constant="104" id="gKr-AK-8sF"/>
+                                            <constraint firstAttribute="trailing" secondItem="JL6-WT-6ad" secondAttribute="trailing" constant="164.33000000000001" id="gzQ-zd-zNT"/>
+                                            <constraint firstItem="8Jt-1v-S3c" firstAttribute="centerY" secondItem="B8j-cF-Z2j" secondAttribute="centerY" id="kDb-kQ-BPP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="B8j-cF-Z2j" firstAttribute="trailing" secondItem="rTK-jY-MI2" secondAttribute="trailingMargin" id="H6y-Cz-v8P"/>
+                                    <constraint firstItem="B8j-cF-Z2j" firstAttribute="leading" secondItem="rTK-jY-MI2" secondAttribute="leadingMargin" id="P1C-SY-iKH"/>
+                                    <constraint firstItem="B8j-cF-Z2j" firstAttribute="bottom" secondItem="rTK-jY-MI2" secondAttribute="bottomMargin" id="if9-zB-I0g"/>
+                                    <constraint firstItem="B8j-cF-Z2j" firstAttribute="top" secondItem="q3j-PT-LnC" secondAttribute="bottom" id="rm9-44-xSf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.36086022490000003" green="0.62657138420000003" blue="0.67755938449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rTK-jY-MI2" secondAttribute="bottom" id="4ho-SM-9M7"/>
+                            <constraint firstItem="rTK-jY-MI2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LGT-WS-BOg"/>
+                            <constraint firstItem="rTK-jY-MI2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="p0i-pV-FGe"/>
+                            <constraint firstItem="rTK-jY-MI2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pkx-vf-yOy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="eurResultLabel" destination="SzQ-Wl-1Hy" id="ZZ4-EW-6XF"/>
+                        <outlet property="eurTextField" destination="xrQ-JE-Sqf" id="coS-Um-qGn"/>
+                        <outlet property="ratioTextField" destination="8BK-mx-WhT" id="5FP-GJ-OSh"/>
+                        <outlet property="ronResultLabel" destination="mkm-QZ-dbF" id="joz-2V-ezU"/>
+                        <outlet property="ronTextField" destination="w9M-7t-Sf2" id="hco-wP-IeZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66.412213740458014" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>
