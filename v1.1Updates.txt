@@ -1,3 +1,4 @@
 - multi screen in function of user's conversion choice
 - dark mode compatible 
 - use conversion ratio from an API
+- sound on tapping buttons
