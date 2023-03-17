@@ -1,0 +1,3 @@
+- multi screen function
+- sound on tapping buttons
+
