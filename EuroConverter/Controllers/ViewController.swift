@@ -9,7 +9,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var ratioTextField: UITextField!
     @IBOutlet weak var ronResultLabel: UILabel!
     @IBOutlet weak var eurResultLabel: UILabel!
-    
+   
     @IBAction func conversionEurRonButtonPressed(_ sender: UIButton) {
         playSound()
         let userEurInput = Float(eurTextField.text!) ?? 0
