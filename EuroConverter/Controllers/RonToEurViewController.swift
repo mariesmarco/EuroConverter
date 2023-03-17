@@ -7,23 +7,59 @@
 
 import UIKit
 
-class RonToEurViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class RonToEurViewController: UIViewController, UITextFieldDelegate {
+    
+    var convertorBrainRonToEur = ConvertorBrain()
+    
+    @IBOutlet weak var ronTextField: UITextField!
+    
+    @IBOutlet weak var ratioTextField: UITextField!
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func clearButtonPressed(_ sender: UIButton) {
+        convertorBrainRonToEur.playSound()
+        updateUI()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func conversionButtonPressed(_ sender: UIButton) {
+        convertorBrainRonToEur.playSound()
+        let userRonInput = Float(ronTextField.text!) ?? 0
+        print(userRonInput)
+        convertorBrainRonToEur.ronValue = convertorBrainRonToEur.getRonValue(userRonInput: userRonInput)
+        let userRatioInput = Float(ratioTextField.text!) ?? 0
+        print(userRatioInput)
+        convertorBrainRonToEur.ratio = convertorBrainRonToEur.getRatioValue(userRatioInput: userRatioInput)
+        let eurResult = convertorBrainRonToEur.conversionRonToEur()
+        print(eurResult)
+        resultLabel.text = String(format: "%.2f", eurResult)
+        
+        
+        
     }
-    */
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        super.viewDidLoad()
+        updateUI()
+        ronTextField.delegate = self
+        ratioTextField.delegate = self
+        
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        ronTextField.endEditing(true)
+        ratioTextField.endEditing(true)
+        return true
+    }
+    
+    func updateUI(){
+        ronTextField.text = ""
+        ratioTextField.text = ""
+        resultLabel.text = "0"
+        
+    }
+    
+    
 }

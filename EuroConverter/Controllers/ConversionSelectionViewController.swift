@@ -23,16 +23,14 @@ class ConversionSelectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToEurToRonConversion" {
-            let destinationVC = segue.destination as! EurToRonViewController
+            _ = segue.destination as! EurToRonViewController
         } else if segue.identifier == "goToRonToEurConversion" {
-            let destinationVC = segue.destination as! RonToEurViewController
+            _ = segue.destination as! RonToEurViewController
         }
         
         

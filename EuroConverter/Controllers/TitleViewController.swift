@@ -25,7 +25,7 @@ class TitleViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "goToConversionSelection" {
-            let destinationVC = segue.destination as! ConversionSelectionViewController
+            _ = segue.destination as! ConversionSelectionViewController
         }
         
     }
