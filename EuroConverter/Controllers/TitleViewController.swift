@@ -12,7 +12,7 @@ class TitleViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     
     @IBAction func startConvertingButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "goToConverterScreen", sender: self)
+        self.performSegue(withIdentifier: "goToConversionSelection", sender: self)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +24,8 @@ class TitleViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "goToConvertorScreen" {
-            let destinationVC = segue.destination as! TitleViewController
+        if segue.identifier == "goToConversionSelection" {
+            let destinationVC = segue.destination as! ConversionSelectionViewController
         }
         
     }

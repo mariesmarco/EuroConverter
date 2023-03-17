@@ -11,6 +11,9 @@
 		F9029B3E29C38862006F2B48 /* ConvertorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B3D29C38862006F2B48 /* ConvertorBrain.swift */; };
 		F9029B4229C454FD006F2B48 /* button_pressed_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9029B4129C454FD006F2B48 /* button_pressed_sound.mp3 */; };
 		F9029B4629C461F2006F2B48 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4529C461F1006F2B48 /* TitleViewController.swift */; };
+		F9029B4929C46FD9006F2B48 /* EurToRonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4729C46FD9006F2B48 /* EurToRonViewController.swift */; };
+		F9029B4C29C471F5006F2B48 /* ConversionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4B29C471F5006F2B48 /* ConversionSelectionViewController.swift */; };
+		F9029B4E29C473EE006F2B48 /* RonToEurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4D29C473EE006F2B48 /* RonToEurViewController.swift */; };
 		F9B2FF7629C321EC00C2042B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2FF7529C321EC00C2042B /* AppDelegate.swift */; };
 		F9B2FF7829C321EC00C2042B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2FF7729C321EC00C2042B /* SceneDelegate.swift */; };
 		F9B2FF7A29C321EC00C2042B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2FF7929C321EC00C2042B /* ViewController.swift */; };
@@ -26,6 +29,9 @@
 		F9029B3D29C38862006F2B48 /* ConvertorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertorBrain.swift; sourceTree = "<group>"; };
 		F9029B4129C454FD006F2B48 /* button_pressed_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_pressed_sound.mp3; sourceTree = "<group>"; };
 		F9029B4529C461F1006F2B48 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		F9029B4729C46FD9006F2B48 /* EurToRonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurToRonViewController.swift; sourceTree = "<group>"; };
+		F9029B4B29C471F5006F2B48 /* ConversionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionSelectionViewController.swift; sourceTree = "<group>"; };
+		F9029B4D29C473EE006F2B48 /* RonToEurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonToEurViewController.swift; sourceTree = "<group>"; };
 		F9B2FF7229C321EC00C2042B /* EuroConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B2FF7529C321EC00C2042B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B2FF7729C321EC00C2042B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 			children = (
 				F9B2FF7929C321EC00C2042B /* ViewController.swift */,
 				F9029B4529C461F1006F2B48 /* TitleViewController.swift */,
+				F9029B4B29C471F5006F2B48 /* ConversionSelectionViewController.swift */,
+				F9029B4729C46FD9006F2B48 /* EurToRonViewController.swift */,
+				F9029B4D29C473EE006F2B48 /* RonToEurViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			files = (
 				F9B2FF7A29C321EC00C2042B /* ViewController.swift in Sources */,
 				F9029B3E29C38862006F2B48 /* ConvertorBrain.swift in Sources */,
+				F9029B4929C46FD9006F2B48 /* EurToRonViewController.swift in Sources */,
 				F9B2FF7629C321EC00C2042B /* AppDelegate.swift in Sources */,
+				F9029B4E29C473EE006F2B48 /* RonToEurViewController.swift in Sources */,
 				F9B2FF7829C321EC00C2042B /* SceneDelegate.swift in Sources */,
 				F9029B4629C461F2006F2B48 /* TitleViewController.swift in Sources */,
+				F9029B4C29C471F5006F2B48 /* ConversionSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
