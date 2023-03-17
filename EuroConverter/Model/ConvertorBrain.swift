@@ -1,24 +1,28 @@
 import Foundation
 
 struct ConvertorBrain{
+    
     var eurValue: Float = 0
     var ronValue: Float = 0
     var ratio: Float = 0
     
     
-    func getEurValue(userEurInput: Float) -> Float{
+    mutating func getEurValue(userEurInput: Float) -> Float{
+        eurValue = userEurInput
         return eurValue
     }
     
-    func getRonValue(userRonInput: Float) -> Float{
+    mutating func getRonValue(userRonInput: Float) -> Float{
+        ronValue = userRonInput
         return ronValue
     }
     
-    func getRatioValue(userRatioInput: Float) -> Float{
+    mutating func getRatioValue(userRatioInput: Float) -> Float{
+        ratio = userRatioInput
         return ratio
     }
     
-    /*func conversionEurToRon() -> Float{
+    func conversionEurToRon() -> Float{
         let floatRonResult = eurValue * ratio
         return floatRonResult
         
@@ -27,6 +31,6 @@ struct ConvertorBrain{
     func conversionRonToEur() -> Float{
         let floatEurResult = ronValue / ratio
         return floatEurResult
-    }*/
+    }
     
 }
