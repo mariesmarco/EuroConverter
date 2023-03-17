@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4752BD4C46A6F62FEF44749B /* Pods_EuroConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5937E39AA71BD8CE63B7ACCA /* Pods_EuroConverter.framework */; };
 		F9029B3E29C38862006F2B48 /* ConvertorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B3D29C38862006F2B48 /* ConvertorBrain.swift */; };
 		F9029B4229C454FD006F2B48 /* button_pressed_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9029B4129C454FD006F2B48 /* button_pressed_sound.mp3 */; };
+		F9029B4629C461F2006F2B48 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4529C461F1006F2B48 /* TitleViewController.swift */; };
+		F9029B4929C46FD9006F2B48 /* EurToRonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4729C46FD9006F2B48 /* EurToRonViewController.swift */; };
+		F9029B4C29C471F5006F2B48 /* ConversionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4B29C471F5006F2B48 /* ConversionSelectionViewController.swift */; };
+		F9029B4E29C473EE006F2B48 /* RonToEurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029B4D29C473EE006F2B48 /* RonToEurViewController.swift */; };
 		F9B2FF7629C321EC00C2042B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2FF7529C321EC00C2042B /* AppDelegate.swift */; };
 		F9B2FF7829C321EC00C2042B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2FF7729C321EC00C2042B /* SceneDelegate.swift */; };
-		F9B2FF7A29C321EC00C2042B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2FF7929C321EC00C2042B /* ViewController.swift */; };
 		F9B2FF7D29C321EC00C2042B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B2FF7B29C321EC00C2042B /* Main.storyboard */; };
 		F9B2FF7F29C321EC00C2042B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B2FF7E29C321EC00C2042B /* Assets.xcassets */; };
 		F9B2FF8229C321EC00C2042B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B2FF8029C321EC00C2042B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A2B331AB5BF6AFF48A6C85F /* Pods-EuroConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroConverter.debug.xcconfig"; path = "Target Support Files/Pods-EuroConverter/Pods-EuroConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		5937E39AA71BD8CE63B7ACCA /* Pods_EuroConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuroConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B9695E59AB6C28CE6D79C1 /* Pods-EuroConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroConverter.release.xcconfig"; path = "Target Support Files/Pods-EuroConverter/Pods-EuroConverter.release.xcconfig"; sourceTree = "<group>"; };
 		F9029B3D29C38862006F2B48 /* ConvertorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertorBrain.swift; sourceTree = "<group>"; };
 		F9029B4129C454FD006F2B48 /* button_pressed_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_pressed_sound.mp3; sourceTree = "<group>"; };
+		F9029B4529C461F1006F2B48 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		F9029B4729C46FD9006F2B48 /* EurToRonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurToRonViewController.swift; sourceTree = "<group>"; };
+		F9029B4B29C471F5006F2B48 /* ConversionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionSelectionViewController.swift; sourceTree = "<group>"; };
+		F9029B4D29C473EE006F2B48 /* RonToEurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonToEurViewController.swift; sourceTree = "<group>"; };
 		F9B2FF7229C321EC00C2042B /* EuroConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B2FF7529C321EC00C2042B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B2FF7729C321EC00C2042B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9B2FF7929C321EC00C2042B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9B2FF7C29C321EC00C2042B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B2FF7E29C321EC00C2042B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B2FF8129C321EC00C2042B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,12 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4752BD4C46A6F62FEF44749B /* Pods_EuroConverter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3222E248CAEB61D22125D2F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B331AB5BF6AFF48A6C85F /* Pods-EuroConverter.debug.xcconfig */,
+				62B9695E59AB6C28CE6D79C1 /* Pods-EuroConverter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E85841E4F9470D0ABA982E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5937E39AA71BD8CE63B7ACCA /* Pods_EuroConverter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9029B3829C387C7006F2B48 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +81,10 @@
 		F9029B3929C387DD006F2B48 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F9B2FF7929C321EC00C2042B /* ViewController.swift */,
+				F9029B4529C461F1006F2B48 /* TitleViewController.swift */,
+				F9029B4B29C471F5006F2B48 /* ConversionSelectionViewController.swift */,
+				F9029B4729C46FD9006F2B48 /* EurToRonViewController.swift */,
+				F9029B4D29C473EE006F2B48 /* RonToEurViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -78,6 +109,7 @@
 		F9029B3C29C3881F006F2B48 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F9029B4129C454FD006F2B48 /* button_pressed_sound.mp3 */,
 				F9B2FF7E29C321EC00C2042B /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -88,6 +120,8 @@
 			children = (
 				F9B2FF7429C321EC00C2042B /* EuroConverter */,
 				F9B2FF7329C321EC00C2042B /* Products */,
+				3222E248CAEB61D22125D2F9 /* Pods */,
+				E85841E4F9470D0ABA982E99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +142,6 @@
 				F9029B3C29C3881F006F2B48 /* Assets */,
 				F9029B3B29C387FA006F2B48 /* Support Files */,
 				F9B2FF8329C321EC00C2042B /* Info.plist */,
-				F9029B4129C454FD006F2B48 /* button_pressed_sound.mp3 */,
 			);
 			path = EuroConverter;
 			sourceTree = "<group>";
@@ -120,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9B2FF8629C321EC00C2042B /* Build configuration list for PBXNativeTarget "EuroConverter" */;
 			buildPhases = (
+				9DF10AA6396E58D468618248 /* [CP] Check Pods Manifest.lock */,
 				F9B2FF6E29C321EC00C2042B /* Sources */,
 				F9B2FF6F29C321EC00C2042B /* Frameworks */,
 				F9B2FF7029C321EC00C2042B /* Resources */,
+				79B94B534122C2553EFBF621 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,15 +215,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79B94B534122C2553EFBF621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EuroConverter/Pods-EuroConverter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EuroConverter/Pods-EuroConverter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EuroConverter/Pods-EuroConverter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF10AA6396E58D468618248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EuroConverter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9B2FF6E29C321EC00C2042B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B2FF7A29C321EC00C2042B /* ViewController.swift in Sources */,
 				F9029B3E29C38862006F2B48 /* ConvertorBrain.swift in Sources */,
+				F9029B4929C46FD9006F2B48 /* EurToRonViewController.swift in Sources */,
 				F9B2FF7629C321EC00C2042B /* AppDelegate.swift in Sources */,
+				F9029B4E29C473EE006F2B48 /* RonToEurViewController.swift in Sources */,
 				F9B2FF7829C321EC00C2042B /* SceneDelegate.swift in Sources */,
+				F9029B4629C461F2006F2B48 /* TitleViewController.swift in Sources */,
+				F9029B4C29C471F5006F2B48 /* ConversionSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +410,7 @@
 		};
 		F9B2FF8729C321EC00C2042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2B331AB5BF6AFF48A6C85F /* Pods-EuroConverter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,10 +420,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EuroConverter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +440,7 @@
 		};
 		F9B2FF8829C321EC00C2042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B9695E59AB6C28CE6D79C1 /* Pods-EuroConverter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,10 +450,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EuroConverter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
